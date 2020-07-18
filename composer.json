@@ -1,0 +1,20 @@
+{
+  "name": "dongtrinh/pms-add-on-discount-codes",
+  "description": "Paid Member Subscriptions - Discount Codes",
+  "type": "wordpress-plugin",
+  "license": "GPLv2 or later",
+  "minimum-stability": "dev",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "git@github.com:dongtrinh/pms-add-on-discount-codes.git"
+    }
+  ],
+  "require": {
+    "php": ">=5.3",
+    "composer/installers": "~1.0"
+  },
+  "extra": {
+    "installer-name": "pms-add-on-discount-codes"
+  }
+}
